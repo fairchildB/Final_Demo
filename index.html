@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Leaflet Map with Census Block Points and Tsunami Scenarios</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div id="map">
+        <div id="chartContainer">
+            <canvas id="populationChart"></canvas>
+            <h2 id="scenarioName" style="text-align: center;"></h2>
+        </div>
+    </div>
+    <div id="layerSelectionDiv"></div> <!-- New div for layer selection -->
+    <div id="legend"></div> <!-- New div for legend -->
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>
